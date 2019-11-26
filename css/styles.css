@@ -54,11 +54,30 @@ footer{
     margin-top: 20px;
 }
 
+small{
+     position: absolute;
+     bottom: 1px;
+     left: 50%;
+     transform: translateX(-50%)
+    
+}
+footer a{
+    text-decoration: none;
+    color: rgba(0,0,0,.5);
+}
+
+footer a:hover{
+    color: black;
+}
+
 footer img{
     position: absolute;
     bottom: 5vh;
     left: 97%;
 }
+
+
+
 
 
 @media screen and (max-width: 768px ){
@@ -77,8 +96,13 @@ footer img{
 
 
      footer{
+       
          max-width: 100vh;
+        
      }
+
+    
+     
 
      footer img{
         position: relative;
